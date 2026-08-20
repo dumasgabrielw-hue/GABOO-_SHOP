@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaboo Shop 🎮</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #080812;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 15px;
+      background: linear-gradient(135deg, #15152b, #4b1b75);
+    }
+
+    header h1 {
+      font-size: 38px;
+      margin: 0;
+    }
+
+    header p {
+      color: #ddd;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 25px 15px;
+    }
+
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .game {
+      background: #161622;
+      border-radius: 18px;
+      padding: 25px 15px;
+      text-align: center;
+      border: 1px solid #292940;
+    }
+
+    .icon {
+      font-size: 50px;
+    }
+
+    .game h2 {
+      margin: 10px 0;
+    }
+
+    .game p {
+      color: #aaa;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 20px;
+      margin-top: 10px;
+      background: #713cff;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .topup {
+      margin-top: 35px;
+      padding: 25px 15px;
+      background: #11111c;
+      border-radius: 18px;
+    }
+
+    .topup h2 {
+      text-align: center;
+    }
+
+    .pack {
+      background: #1b1b2a;
+      margin: 10px 0;
+      padding: 16px;
+      border-radius: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .buy {
+      background: #713cff;
+      color: white;
+      padding: 8px 13px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #888;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🎮 Gaboo Shop</h1>
+  <p>Top Up • Diamonds • UC • Coins • Game Services</p>
+</header>
+
+<div class="container">
+
+  <h2>🔥 Tout jwèt yo</h2>
+
+  <div class="games">
+
+    <div class="game">
+      <div class="icon">🚗</div>
+      <h2>Flex City</h2>
+      <p>Diamonds & Top Up</p>
+      <a class="button" href="#flexcity">Top Up</a>
+    </div>
+
+    <div class="game">
+      <div class="icon">⚽</div>
+      <h2>DLS</h2>
+      <p>Coins & Gems</p>
+      <a class="button" href="#dls">Top Up</a>
+    </div>
+
+    <div class="game">
+      <div class="icon">🔥</div>
+      <h2>Free Fire</h2>
+      <p>Diamonds</p>
+      <a class="button" href="#freefire">Top Up</a>
+    </div>
+
+    <div class="game">
+      <div class="icon">🪖</div>
+      <h2>PUBG Mobile</h2>
+      <p>UC</p>
+      <a class="button" href="#pubg">Top Up</a>
+    </div>
+
+    <div class="game">
+      <div class="icon">🏎️</div>
+      <h2>GTA</h2>
+      <p>Game Services</p>
+      <a class="button" href="#gta">Top Up</a>
+    </div>
+
+  </div>
+
+
+  <!-- FLEX CITY -->
+
+  <section class="topup" id="flexcity">
+    <h2>🚗 Flex City 💎</h2>
+
+    <div class="pack">
+      <span>100 Diamonds</span>
+      <span>HTG 100</span>
+      <a class="buy" href="#">Achte</a>
+    </div>
+
+    <div class="pack">
+      <span>500 Diamonds</span>
+      <span>HTG 400</span>
+      <a class="buy" href="#">Achte</a>
+    </div>
+
+    <div class="pack">
+      <span>1,000 Diamonds</span>
+      <span>HTG 750</span>
+      <a class="buy" href="#">Achte</a>
+    </div>
+
+    <div class="pack">
+      <span>2,000 Diamonds</span>
+      <span>HTG 1,400</span>
+      <a class="buy" href="#">Achte</a>
+    </div>
+  </section>
+
+
+  <!-- DLS -->
+
+  <section class="topup" id="dls">
+    <h2>⚽ DLS</h2>
+
+    <div class="pack">
+      <span>Coins</span>
+      <span>Sou demann</span>
+      <a class="buy" href="#">Achte</a>
+    </div>
+
+    <div class="pack">
+      <span>Gems</span>
+      <span>Sou demann</span>
+      <a class="buy" href="#">Achte</a>
+    </div>
+  </section>
+
+
+  <!-- FREE FIRE -->
+
+  <section class="topup" id="freefire">
+    <h2>🔥 Free Fire</h2>
+
+    <div class="pack">
+      <span>Diamonds</span>
+      <span>Sou demann</span>
+      <a class="buy" href="#">Achte</a>
+    </div>
+
+    <div class="pack">
+      <span>Weekly Membership</span>
+      <span>Sou demann</span>
+      <a class="buy" href="#">Achte</a>
+    </div>
+  </section>
+
+
+  <!-- PUBG -->
+
+  <section class="topup" id="pubg">
+    <h2>🪖 PUBG Mobile</h2>
+
+    <div class="pack">
+      <span>UC</span>
+      <span>Sou demann</span>
+      <a class="buy" href="#">Achte</a>
+    </div>
+  </section>
+
+
+  <!-- GTA -->
+
+  <section class="topup" id="gta">
+    <h2>🏎️ GTA</h2>
+
+    <div class="pack">
+      <span>Game Services</span>
+      <span>Sou demann</span>
+      <a class="buy" href="#">Achte</a>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  © 2026 Gaboo Shop 🎮
+  <br>
+  Top Up Center
+</footer>
+
+</body>
+</html>
